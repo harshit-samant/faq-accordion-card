@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #6565E7; }
+
+.main {
+  background: linear-gradient(180deg, #FFFFFF 0%, #AF67E9 0.01%, #6565E7 100%);
+  padding: 20vh 17vw;
+  font-family: 'Kumbh Sans',sans-serif;
+}
+
+.row {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 35px 40px 5px rgba(0, 0, 0, 0.25);
+}
+
+.main-img {
+  width: 100%;
+  position: relative;
+  right: 20%;
+}
+
+h1 {
+  font-weight: 700;
+  color: #4A4B5E;
+  font-size: 2rem;
+}
+
+.col-txt {
+  padding: 5vh 10vw 0 0;
+}
+
+p {
+  font-size: 12px;
+  color: #787887;
+}
+
+h6 {
+  font-size: 13px;
+  color: #787887;
+  margin-top: 8px;
+}
+
+.arrow-down {
+  width: 10px;
+  height: 7px;
+}
+
+hr {
+  color: #787887;
+}
+
+h6:hover {
+  color: #F47C57;
+}
+
+ .click {
+   font-weight: 700;
+   color: #4A4B5E;
+ }
+
+ @media (max-width: 767px) {
+   .main-img{
+     content:url("phone.svg");
+     right: 7%;
+     bottom: 130%;
+   }
+   .div1 {
+     height: 170px;
+   }
+   h1 {
+     text-align: center;
+   }
+   .col-txt {
+     padding: 5vh 5vw 0 5vw;
+   }
+ }
+
+@media (max-width: 425px) {
+  .main-img{
+    content:url("phone.svg");
+    right: 7%;
+    bottom: 110%;
+  }
+  .div1 {
+    height: 90px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .col-txt {
+    padding: 5vh 5vw 0 5vw;
+  }
+}
